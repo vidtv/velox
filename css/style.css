@@ -170,6 +170,9 @@ main h2 {
   height: 4px;
   background-color: #00a5ff;
   margin: 0 auto;
+}
+
+.services .blue-line {
   margin-bottom: 90px;
 }
 
@@ -325,4 +328,78 @@ main h2 {
   width: 280px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.brands {
+  padding-top: 70px;
+  padding-bottom: 125px;
+}
+
+.brands h2 {
+  margin-top: 0;
+}
+
+.brands .blue-line {
+  margin-bottom: 75px;
+}
+
+.brands a {
+  display: inline-block;
+  min-height: 100px;
+  width: 150px;
+  margin-right: 50px;
+  background-image: url(../img/brands/spritesheet.png);
+}
+
+.brands a:first-of-type {
+  background-position: -30px -30px;
+}
+
+.brands a:nth-of-type(2) {
+  background-position: -398px -10px;
+}
+
+.brands a:nth-of-type(3) {
+  background-position: -30px -170px;
+}
+
+.brands a:nth-of-type(4) {
+  background-position: -568px -18px;
+}
+
+.brands a:nth-of-type(5) {
+  background-position: -415px -285px;
+}
+
+.brands a:last-of-type {
+  margin-right: 0;
+  background-position: -30px -420px;
+}
+
+.brands a:hover {
+  background-image: url(../img/brands/spritesheet.png);
+}
+
+.brands a:first-of-type:hover {
+  background-position: -214px -30px;
+}
+
+.brands a:nth-of-type(2):hover {
+  background-position: -398px -148px;
+}
+
+.brands a:nth-of-type(3):hover {
+  background-position: -235px -289px;
+}
+
+.brands a:nth-of-type(4):hover {
+  background-position: -568px -160px;
+}
+
+.brands a:nth-of-type(5):hover {
+  background-position: -579px -285px;
+}
+
+.brands a:last-of-type:hover {
+  background-position: -239px -420px;
 }
