@@ -431,8 +431,8 @@ main h2 {
   position: absolute;
   top: 395px;
   left: 550px;
-  width: 70px;
   height: 12px;
+  padding: 0 10px;
   z-index: 2;
 }
 
@@ -572,6 +572,10 @@ main h2 {
   width: 109px;
   height: 109px;
   background-image: url(../img/reviews/john-face-little.png);
+}
+
+.slide-for-linda a {
+  color: #3a3f4b;
 }
 
 .slide-for-john::before {
