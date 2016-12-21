@@ -184,25 +184,25 @@
       </section>
     </main>
     <footer class="page-footer">
-      <div class="container">
-        <section class="contacts">
-          <header>
+      <section class="contacts">
+        <div class="container clearfix">
+          <header class="clearfix">
             <h3>Contact Us</h3>
             <nav class="footer-menu">
               <ul>
                 <li>
-                  <a href="index.html"></a>
-                </li>
-                <li>
+                  <a href="index.html">Home</a>
+                </li><!--
+             --><li>
                   <a href="#">About</a>
-                </li>
-                <li>
+                </li><!--
+             --><li>
                   <a href="#">Services</a>
-                </li>
-                <li>
+                </li><!--
+             --><li>
                   <a href="#">Blog</a>
-                </li>
-                <li>
+                </li><!--
+             --><li>
                   <a href="#">Contact Us</a>
                 </li>
               </ul>
@@ -213,7 +213,7 @@
             <p class="contact-address">House No,11132, Sector 31, Gurgaon
             122001  India</p>
             <h4>Call Us</h4>
-            <p>+ 91-9876543210
+            <p>+ 91-9876543210<br>
             + 01262219018</p>
             <h4>Email Us</h4>
             <p>
@@ -222,32 +222,34 @@
           </section>
           <form class="send-feedback">
             <div class="feedback-name">
-              <label for="name">Name :</label>
+              <label for="name">Name :</label><br>
               <input type="text" name="name" id="name">
             </div>
             <div class="feedback-subject">
-              <label for="subject">Subject :</label>
+              <label for="subject">Subject :</label><br>
               <input type="text" name="subject" id="subject">
             </div>
             <div class="feedback-message">
-              <label for="message">Message :</label>
-              <textarea cols="40" rows="5" id="message" name="message">
+              <label for="message">Your Message :</label><br>
+              <textarea cols="40" rows="7" id="message" name="message">
               </textarea>
             </div>
             <button type="submit" class="button">Send message</button>
           </form>
-          <button type="button" class="scroll-top"></button>
-        </section>
-        <section class="copyright-and-social">
-          <p class="copyright">© 2016 Nishant Bazzad</p>
-          <div class="social-networks">
-            <a class="social-button social-fb" href="#"></a>
-            <a class="social-button social-tw" href="#"></a>
-            <a class="social-button social-other" href="#"></a>
-            <a class="social-button social-li" href="#"></a>
-          </div>
-        </section>
-      </div>
+          <button class="scroll-top" type="button">
+            <a href="#"></a>
+          </button>
+        </div>
+      </section>
+      <section class="copyright-and-social container clearfix">
+        <p class="copyright">© 2016 Nishant Bazzad</p>
+        <div class="social-networks">
+          <a class="social-button social-fb" href="#"></a><!--
+       --><a class="social-button social-tw" href="#"></a><!--
+       --><a class="social-button social-flickr" href="#"></a><!--
+       --><a class="social-button social-li" href="#"></a>
+        </div>
+      </section>
     </footer>
     <script src="js/main.js"></script>
   </body>

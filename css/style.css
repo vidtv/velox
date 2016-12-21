@@ -597,3 +597,207 @@ main h2 {
   height: 109px;
   background-image: url(../img/reviews/jack-face-little.png);
 }
+
+.contacts {
+  position: relative;
+  background-color: #3b404c;
+  color: white;
+}
+
+.contacts header {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.contacts h3 {
+  font-family: "Lora Bold";
+  font-size: 33px;
+  line-height: 24px;
+  width: 175px;
+  float: left;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.footer-menu {
+  float: right;
+}
+
+.footer-menu ul {
+  list-style: none;
+  margin: 0;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer-menu li:last-child {
+  margin-right: 0;
+}
+
+.footer-menu a {
+  font-family: "OpenSans Regular";
+  font-size: 21px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-data {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  float: left;
+}
+
+.contact-data h4 {
+  text-transform: uppercase;
+  font-family: "OpenSans Semibold";
+  font-size: 24px;
+  margin: 0;
+}
+
+.contact-data p {
+  font-family: "OpenSans Regular";
+  font-size: 18px;
+  line-height: 24px;
+  color: #999999;
+  width: 310px;
+  padding: 20px 0;
+  padding-right: 10px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.contact-data a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.send-feedback {
+  float: right;
+  width: 770px;
+  padding-top: 50px;
+}
+
+.feedback-name,
+.feedback-subject {
+  display: inline-block;
+  width: 360px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.send-feedback input,
+.send-feedback textarea {
+  display: block;
+  background-color: inherit;
+  font-family: "OpenSans Regular";
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #999a9c;
+}
+
+.send-feedback input {
+  height: 45px;
+}
+
+.send-feedback input:active,
+.send-feedback textarea:active {
+  border-bottom: 1px solid #00a5ff;
+}
+
+.feedback-name {
+  margin-right: 45px;
+}
+
+.send-feedback label {
+  font-family: "OpenSans Regular";
+  font-size: 26px;
+  line-height: 39px;
+  padding-bottom: 10px;
+}
+
+.send-feedback textarea {
+  margin-bottom: 40px;
+}
+
+.send-feedback .button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 280px;
+}
+
+.scroll-top {
+  position: absolute;
+  top: 665px;
+  left: 720px;
+  display: block;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #00a5ff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll-top a {
+  display: block;
+  width: 9px;
+  height: 9px;
+  text-align: center;
+  border: none;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+.copyright-and-social {
+  padding: 30px 0;
+}
+
+.copyright-and-social p {
+  float: left;
+  font-family: "Montserrat";
+  font-size: 13px;
+  line-height: 26px;
+  color: #999999;
+  margin: 0;
+}
+
+.social-networks {
+  float: right;
+  width: 160px;
+}
+
+.social-networks a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.social-fb {
+  background-image: url(../img/icons/icon-fb.png);
+}
+
+.social-tw {
+  background-image: url(../img/icons/icon-twitter.png);
+}
+
+.social-flickr {
+  background-image: url(../img/icons/icon-flickr.png);
+}
+
+.social-li {
+  background-image: url(../img/icons/icon-linkedin.png);
+  margin-right: 0;
+}
